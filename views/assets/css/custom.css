@@ -1,0 +1,14 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    color:white;
+    background-color: red;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+}

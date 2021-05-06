@@ -1,0 +1,14 @@
+doctype html
+html 
+    head 
+        title my first pug use 
+        style 
+            include ./assets/css/custom.css
+        script 
+            include ./assets/js/custom.js
+    body 
+        include ./component/header.pug
+        h1 hello from main section 
+        button(onclick="myFunction()") click
+        p#idsa
+        include ./component/footer.pug
